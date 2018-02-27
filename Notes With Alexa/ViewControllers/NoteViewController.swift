@@ -97,7 +97,7 @@ class NoteViewController: UIViewController, UITextViewDelegate, UINavigationCont
             textView.textColor = UIColor.white
         }
         else {
-            textView.backgroundColor = UIColor(red: 235.0, green: 235.0, blue: 235.0, alpha: 1.0)
+            textView.backgroundColor = UIColor(red: 235/255, green: 235/255, blue: 235/255, alpha: 1.0)
             textView.textColor = UIColor.black
         }
         
@@ -235,9 +235,10 @@ class NoteViewController: UIViewController, UITextViewDelegate, UINavigationCont
                 // Working with a new note
                 //
                 if let newNote = createNewNote() {
-                    // Insert the newest note at the top
+                    // Here we only upload the note to Firebase, because the DB listener will
+                    // automatically fetch the new note and update the tableView
+                    // previous.notes.insert(newNote, at: 0)
                     //
-                    previous.notes.insert(newNote, at: 0)
                     FirebaseDatabase.saveNoteToFirebase(note: newNote)
                 }
             }

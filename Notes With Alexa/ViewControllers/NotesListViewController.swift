@@ -158,7 +158,6 @@ class NotesListViewController: UIViewController, UITableViewDelegate, UITableVie
     
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
-            print("Deleting note")
             // Alert the user and ask for confirmation
             //
             let deleteAlert = UIAlertController(title: "Delete Note", message: "Are you sure you want to delete this note? This action cannot be undone.", preferredStyle: .alert)
