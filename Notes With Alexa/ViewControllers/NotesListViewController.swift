@@ -146,7 +146,7 @@ class NotesListViewController: UIViewController, UITableViewDelegate, UITableVie
             cell.firstLineLabel.textColor = UIColor.black
             cell.timestampLabel.textColor = UIColor.black
         }
-        
+
         return cell
     }
     

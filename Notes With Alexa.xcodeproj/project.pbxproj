@@ -13,6 +13,10 @@
 		5514F458201B91AF006103E7 /* Notes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5514F457201B91AF006103E7 /* Notes.storyboard */; };
 		5514F45A201BD685006103E7 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5514F459201BD685006103E7 /* Note.swift */; };
 		5516CDDB202E0B2A00DBEBD9 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 5516CDDA202E0B2A00DBEBD9 /* index.js */; };
+		5542D14E204E06170021E0D9 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5542D14A204E06160021E0D9 /* 3.jpg */; };
+		5542D14F204E06170021E0D9 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5542D14B204E06160021E0D9 /* 0.jpg */; };
+		5542D150204E06170021E0D9 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5542D14C204E06170021E0D9 /* 1.jpg */; };
+		5542D151204E06170021E0D9 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5542D14D204E06170021E0D9 /* 4.jpg */; };
 		5553997A201A5F2500A8DBFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55539979201A5F2500A8DBFB /* AppDelegate.swift */; };
 		5553997F201A5F2500A8DBFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5553997D201A5F2500A8DBFB /* Main.storyboard */; };
 		55539982201A5F2500A8DBFB /* Notes_With_Alexa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55539980201A5F2500A8DBFB /* Notes_With_Alexa.xcdatamodeld */; };
@@ -66,6 +70,10 @@
 		5514F457201B91AF006103E7 /* Notes.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Notes.storyboard; sourceTree = "<group>"; };
 		5514F459201BD685006103E7 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		5516CDDA202E0B2A00DBEBD9 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		5542D14A204E06160021E0D9 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		5542D14B204E06160021E0D9 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		5542D14C204E06170021E0D9 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		5542D14D204E06170021E0D9 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
 		55539976201A5F2500A8DBFB /* Notes With Alexa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notes With Alexa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55539979201A5F2500A8DBFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5553997E201A5F2500A8DBFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -179,9 +187,21 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		5542D149204E00CF0021E0D9 /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				5542D14B204E06160021E0D9 /* 0.jpg */,
+				5542D14C204E06170021E0D9 /* 1.jpg */,
+				5542D14A204E06160021E0D9 /* 3.jpg */,
+				5542D14D204E06170021E0D9 /* 4.jpg */,
+			);
+			path = Samples;
+			sourceTree = "<group>";
+		};
 		5553996D201A5F2500A8DBFB = {
 			isa = PBXGroup;
 			children = (
+				5542D149204E00CF0021E0D9 /* Samples */,
 				5598D0BF202138B700179085 /* AlexaSkillCode */,
 				555399AA201A60BB00A8DBFB /* Frameworks */,
 				55539978201A5F2500A8DBFB /* Notes With Alexa */,
@@ -409,7 +429,11 @@
 				55539987201A5F2500A8DBFB /* LaunchScreen.storyboard in Resources */,
 				55E413962025EEA000DC5E83 /* GoogleService-Info.plist in Resources */,
 				5516CDDB202E0B2A00DBEBD9 /* index.js in Resources */,
+				5542D14F204E06170021E0D9 /* 0.jpg in Resources */,
 				55539984201A5F2500A8DBFB /* Assets.xcassets in Resources */,
+				5542D150204E06170021E0D9 /* 1.jpg in Resources */,
+				5542D14E204E06170021E0D9 /* 3.jpg in Resources */,
+				5542D151204E06170021E0D9 /* 4.jpg in Resources */,
 				5553997F201A5F2500A8DBFB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
